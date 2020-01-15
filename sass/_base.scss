@@ -1,0 +1,42 @@
+//Colors
+$color-primary: #fbe3b9;
+$color-secondary: #fab696;
+$color-green: #0c9463;
+$color-dark: #2d334a;
+
+
+//RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; //1200px
+$bp-large: 60em; //1000px
+$bp-medium: 50em; //800px
+$bp-small: 37.5em; //600px
+$bp-smallest: 25em; //400px
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem - 10px
+
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 50%;
+    }
+}
+
+body {
+    background-color: $color-dark;
+    font-weight: 300;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    color: $color-dark;
+}
+
+
+

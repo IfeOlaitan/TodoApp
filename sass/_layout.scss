@@ -1,0 +1,24 @@
+.container {
+    max-width: 120rem;
+    background-color: $color-primary;
+    margin: 5rem auto;
+
+    min-height: 50rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        max-width: 90rem;
+        margin: 3rem auto;
+
+        min-height: 40rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        max-width: 60rem;
+
+        min-height: 35rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+        max-width: 40rem;
+    }
+}
