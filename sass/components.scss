@@ -13,6 +13,10 @@ header {
 .user-input {
     margin-bottom: 4rem;
     font-size: 1.4rem;
+    
+    @media only screen and (max-width: $bp-smallest) {
+        font-size: 1.2rem;
+    }
 
     display: flex;
     justify-content: center;
